@@ -14,7 +14,7 @@ environment=$5
 
 # Changer le nom du serveur
 echo "Changing hostname..."
-sudo sed -i "s/old_hostname/$new_hostname/g" /etc/hosts
+sudo sed -i "s/tmqamoodlefinal/$new_hostname/g" /etc/hosts
 echo "$new_hostname" | sudo tee /etc/hostname
 
 # Modifier le fichier fuseAzureStorage.cfg
